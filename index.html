@@ -13,7 +13,6 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-  <script src="JS/main.js"></script>
 
 </head>
 <body>
@@ -21,10 +20,10 @@
 
 <main class="container">
   <div class="card">
-    <h4>Advice <span class="id"># 111</span></h4>
-    <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, natus.</p>
+    <h4>Advice <span id="id"></span></h4>
+    <p id="quote"></p>
     <div class="separator"><img src="/images/pattern-divider-mobile.svg" alt=""></div>
-    <button class="btn" onclick="quote()"></button>
+    <button class="btn" onclick="getAdvice()"></button>
   </div>
 </main>  
   
@@ -35,4 +34,6 @@
 
   
 </body>
+<script src="JS/main.js"></script>
+
 </html>
