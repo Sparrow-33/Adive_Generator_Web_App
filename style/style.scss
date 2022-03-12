@@ -1,0 +1,80 @@
+@import 'inc';
+
+html{
+  font-family: 'Manrope', sans-serif;
+  color: aliceblue;
+  box-sizing: border-box;
+  font-weight:800;
+}
+
+body{
+
+  background:  $Neutral-Dark-Blue;
+  overflow-y: hidden;
+  
+  main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card{
+    position: relative;
+     background:hsl(217, 19%, 24%);
+     width: 300px;
+     height: 300px;
+     border-radius: 10px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     padding: 1.5em;
+
+     h4{
+      text-transform: uppercase;
+       letter-spacing: 2px;
+       color: $Primary-Neon-Green;
+       font-size: 0.8em;
+      
+       span{
+         margin-left: 0.5em;
+       }
+     }
+
+     p{
+    
+       position: relative;
+       font-size: 1.5em;
+       color: $Primary-Light-Cyan;
+       
+     }
+
+     button{
+       position: absolute;
+       height: 50px;
+       width: 50px;
+       display: inline;
+       border-radius: 100vh;
+       background: url('/images/icon-dice.svg');
+       background-color: $Primary-Neon-Green;
+       background-repeat: no-repeat;
+       background-position: center;
+       border: none;
+       align-self: center;
+       bottom: -20px;
+       
+
+       &:hover{
+         cursor: pointer;
+       }
+     }
+
+     .separator{
+        margin-bottom: 2em;
+     }
+     
+  }
+}
+
