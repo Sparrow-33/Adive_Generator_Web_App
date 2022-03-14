@@ -30,7 +30,8 @@ body{
      display: flex;
      flex-direction: column;
      justify-content: space-around;
-     padding: 1.5em;
+     padding: 2em;
+     
 
      h4{
       text-transform: uppercase;
@@ -76,5 +77,15 @@ body{
      }
      
   }
+}
+
+@media (min-width:376px){
+body{
+  .card{
+    width: 400px;
+   
+  }
+}
+  
 }
 

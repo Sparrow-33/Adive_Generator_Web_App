@@ -41,7 +41,7 @@ body .card {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 1.5em;
+  padding: 2em;
 }
 
 body .card h4 {
@@ -84,5 +84,11 @@ body .card button:hover {
 
 body .card .separator {
   margin-bottom: 2em;
+}
+
+@media (min-width: 376px) {
+  body .card {
+    width: 400px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
